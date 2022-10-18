@@ -20,7 +20,7 @@
 //!
 
 use std::borrow::Cow;
-
+use bevy_ecs::schedule::system_descriptor::ExclusiveSystemDescriptorCoercion;
 use bevy_ecs::{
     archetype::ArchetypeComponentId,
     component::ComponentId,
